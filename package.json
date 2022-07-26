@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "run-p dev:*",
-    "dev:build": "esbuild server.ts --platform=node --bundle --outfile=dist/main.js --watch",
+    "dev:build": "esbuild src/server.ts --platform=node --bundle --outfile=dist/main.js --watch",
     "dev:run": "nodemon dist/main.js"
   },
   "dependencies": {
