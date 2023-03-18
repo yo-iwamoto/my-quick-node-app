@@ -2,8 +2,8 @@
   "name": "my-quick-node-app",
   "license": "MIT",
   "scripts": {
-    "preinstall": "only-allow pnpm",
-    "dev": "concurrently 'pnpm dev:build' 'pnpm dev:run",
+    "preinstall": "npx only-allow pnpm",
+    "dev": "concurrently 'pnpm dev:build' 'pnpm dev:run'",
     "dev:build": "esbuild src/server.ts --platform=node --bundle --outfile=dist/main.js --watch",
     "dev:run": "nodemon dist/main.js"
   },
