@@ -1,11 +1,8 @@
-import express from 'express';
+import { Hono } from 'hono';
+import { serve } from '@hono/node-server';
 
-const app = express();
+const app = new Hono();
 
-app.get('/', (_req, res) => {
-  res.json({
-    message: 'Hello World',
-  });
-});
+app.get('/', (c) => c.text('Hello Hono🔥'));
 
-app.listen(3030);
+serve(app);
