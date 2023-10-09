@@ -10,20 +10,20 @@
     "test:w": "vitest"
   },
   "dependencies": {
-    "@hono/node-server": "^0.6.0",
-    "@prisma/client": "^4.14.0",
-    "hono": "^3.1.8"
+    "@hono/node-server": "^1.2.0",
+    "@prisma/client": "^5.4.1",
+    "hono": "^3.7.5"
   },
   "devDependencies": {
-    "@fast-check/vitest": "^0.0.5",
-    "@types/node": "^20.1.2",
-    "@vitest/ui": "^0.31.0",
-    "concurrently": "^8.0.1",
-    "dotenv-cli": "^7.2.1",
-    "esbuild": "^0.17.18",
-    "nodemon": "^2.0.22",
-    "prisma": "^4.14.0",
-    "typescript": "^5.0.4",
-    "vitest": "^0.31.0"
+    "@fast-check/vitest": "^0.0.8",
+    "@types/node": "^20.8.3",
+    "@vitest/ui": "^0.34.6",
+    "concurrently": "^8.2.1",
+    "dotenv-cli": "^7.3.0",
+    "esbuild": "^0.19.4",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.4.1",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
   }
 }
