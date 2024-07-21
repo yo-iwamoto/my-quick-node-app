@@ -1,6 +1,7 @@
 {
   "name": "my-quick-node-app",
   "license": "MIT",
+  "packageManager": "pnpm@9.5.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "concurrently 'pnpm dev:build' 'pnpm dev:run'",
@@ -10,20 +11,20 @@
     "test:w": "vitest"
   },
   "dependencies": {
-    "@hono/node-server": "^1.2.0",
-    "@prisma/client": "^5.4.1",
-    "hono": "^3.7.5"
+    "@hono/node-server": "^1.12.0",
+    "@prisma/client": "^5.17.0",
+    "hono": "^4.5.1"
   },
   "devDependencies": {
-    "@fast-check/vitest": "^0.0.8",
-    "@types/node": "^20.8.3",
-    "@vitest/ui": "^0.34.6",
-    "concurrently": "^8.2.1",
-    "dotenv-cli": "^7.3.0",
-    "esbuild": "^0.19.4",
-    "nodemon": "^3.0.1",
-    "prisma": "^5.4.1",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.6"
+    "@fast-check/vitest": "^0.1.2",
+    "@types/node": "^20.14.11",
+    "@vitest/ui": "^2.0.3",
+    "concurrently": "^8.2.2",
+    "dotenv-cli": "^7.4.2",
+    "esbuild": "^0.23.0",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
   }
 }
